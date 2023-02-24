@@ -96,12 +96,11 @@ Students may work in groups. Ideally, these may be composed of up to three stude
 
 Given that the focus of this course is on method and not domain knowledge per se (although we have covered a good bit of that), you may be liberal in your interpretations. That is, do not worry about whether they will meet high scholarly and scientific standards. Remember, the purpose of ETA is to open up texts so that you may explore them and extract possibly significant patterns from them. However, you are expected to present your conclusions in a coherent and compelling manner. And, if you do find that you have discovered something interesting about your data beyond the requirements of the assignment, by all means consider pursuing it beyond this course. 
 Grading is divided evenly among the quality of your deliverables -- the completeness of your data files, the manifest, etc. -- and your report. 
+
 | Item | Percent of Grade |
 |------|------------------|
-| Deliverables		|			50% |
-| Legibility and meeting of format standards |	10% |
-| Quality of Final Report		|		40% |
-| Final Report |					50% |
+| Deliverables | 50% |
+| Final Report | 50% |
 
 # Appendix 1: Example Projects
 - https://www.dropbox.com/s/6zwh70eehj90fyl/EXAMPLE01.pdf?dl=0 
