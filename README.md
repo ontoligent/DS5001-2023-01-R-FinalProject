@@ -3,7 +3,7 @@
 ```yaml
 Course: UVA DS 5001 -- Exploratory Text Analytics
 Term:   Spring 2023
-Topic:  Final Project
+Topic:  Final Project Instructions
 ```
 # Overview
 
@@ -25,16 +25,6 @@ To receive full credit for the assignment, you must produce a digital analytical
 ---
 
 A collection of **source files** hosted on your UVA Box account. If these are large for downloading, you should compress them as archive files (e.g., `zip` or `tar.gz`).
-
----
-
-A **manifest document** in [JSONL format](https://jsonlines.org/examples/), describing the following features for each source file:
-- Provenance: Where did they come from? Describe the website or other source and provide relevant URLs.
-- Location: Provide a link to the source files in UVA Box.
-- Description: What is the general subject matter of the corpus?
-- Format: A description of both the file formats of the source files, e.g., plaintext, XML, CSV, etc., and the internal structure where applicable. For - example, if XML then specify document type (e.g., TEI or XHTML).
-  
-Note that a `manifest.json` file is provided for you in the repo.
 
 ----
 
@@ -66,14 +56,7 @@ In addition, you should include the following data sets, either as features in t
 
 The **Jupyter notebooks** used to perform all operations that produced the data in your tables.
 
-One or more Jupyter notebooks that **explore, visualize, and interpret** the data. You should use at least three of the following visualization types (beyond simple bar and pie charts):
-
-- Hierarchical cluster diagrams
-- Heatmaps showing correlations
-- Scatter plots
-- KDE plots
-- Dispersion plots
-- t-SNE plots
+Any Jupyter notebooks used to  **explore** and **visualize** the data in preparation for your final report. 
 
 Any **Python files** (e.g., `.py` files) you wrote to support your work. 
 
@@ -83,15 +66,33 @@ Any other assets &mdash; e.g., images, stylesheets, JavaScript libraries, etc. &
 
 ## Report Document
 
-A two- to four-page notebook interpreting the results of your work and links to the repository and Dropbox folder containing links to all the files listed above. 
+A notebook interpreting the results of your work and with links to the repository and Dropbox folder containing links to all the files listed above. This notebook should be written using Markdown text cells and embedded graphics from your other notebooks to illustrate points. Do not reference images that are not listed in the notebook. Include citations for any references made in the notebook.
 
-This document can contain as many visualizations as necessary to make your points, but the page count refers to text only.
+This notebook should contain the following four sections:
 
-These documents shoud be written single spaced, with a 12 point font, and 1 inch margins on 8 x 11.5 inch pages.
+1. **Introduction**. Describe the nature of your corpus and the question(s) you've asked of the data.
+
+2. **Data Description**. Provide a description of all relativant source files and describe the following features for each source file:
+    1. _Provenance_: Where did they come from? Describe the website or other source and provide relevant URLs.
+    2. _Location_: Provide a link to the source files in UVA Box.
+    3. _Description_: What is the general subject matter of the corpus?
+    4. _Format_: A description of both the file formats of the source files, e.g., plaintext, XML, CSV, etc., and the internal structure where applicable. For - example, if XML then specify document type (e.g., TEI or XHTML).
+
+3. **Exploration**. Describe each of your explorations, such as PCA and topic models. For each, included the relevant parameters and hyperparemeters used to generate each model and visualization. For your visualizations, you should use at least three of the following visualization types (beyond simple bar and pie charts):
+    - Hierarchical cluster diagrams
+    - Heatmaps showing correlations
+    - Scatter plots
+    - KDE plots
+    - Dispersion plots
+    - t-SNE plots
+
+4. **Interpretation**. Provide your interpretation of the results of exploration, and any conclusion if you are comfortable making them.
+
+Regarding number of pages, a rule of thumb would be a six page exported PDF. The question of length is secondary to the requirement that you answer complete all the sections.
 
 # Format and Style
 
-Any non-data files you produce, such as a Jupyter notebook, a manifest, or a Python program, should contain a header stating your name and email address, the name of this class (DS 5001), and the date. It should look something like this (depending on the document):
+Any non-data files you produce, such as a Jupyter notebook or a Python program, should contain a header stating your name and email address, the name of this class (DS 5001), and the date. It should look something like this (depending on the document):
 
 ```
 Rafael Alvarado (rca2t@virginia.edu)
@@ -119,6 +120,9 @@ Grading is divided evenly among the quality of your deliverables -- the complete
 | Final Report | 50% | Full points if the essay makes use of the analyses to provide a reasonable interpretation of the data.  Points will be taken off anything that detracts from you presentation, such as incomplete sentences and poor graphics. |
 
 # Appendix 1: Example Projects
+
+> Note that these projects do not conform to the current instructions. They are provided here to give you a sense of the kinds of questions and answers you may give to your data and get from your exploratory analyses.
+
 - https://www.dropbox.com/s/6zwh70eehj90fyl/EXAMPLE01.pdf?dl=0 
 - https://www.dropbox.com/s/qcf9x9zcz20g4di/EXAMPLE02.pdf?dl=0 
 - https://www.dropbox.com/s/y1m4t1qaorckvh3/EXAMPLE03.pdf?dl=0 
